@@ -7,7 +7,7 @@ class GreeterTest extends TestCase
 {
     public function testGreet()
     {
-$greeter = new Greeter();
+        $greeter = new Greeter();
         $this->assertEquals('Hello from src!', $greeter->greet());
-      }
+    }
 }
